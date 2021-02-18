@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: #71b5d1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: #71b5d1;
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid #71b5d1;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
@@ -108,13 +108,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #34b7a7;
+  background: #71b5d1;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #3dc8b7;
+  background: #71b5d1;
   color: #fff;
 }
 
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #e9e9e9;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -136,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-right: -250px;
 }
 
 #header .logo a {
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #71b5d1;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -238,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #34b7a7;
+  color: #71b5d1;
 }
 
 .nav-menu .drop-down > a:after {
@@ -298,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #34b7a7;
+  color: #71b5d1;
 }
 
 .mobile-nav {
@@ -333,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #34b7a7;
+  color: #71b5d1;
   text-decoration: none;
 }
 
@@ -392,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links {
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .header-social-links a {
@@ -405,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: #71b5d1;
 }
 
 @media (max-width: 992px) {
@@ -461,11 +462,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #71b5d1;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #71b5d1;
 }
 
 @media (min-width: 1024px) {
@@ -525,7 +526,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #34b7a7;
+  background: #71b5d1;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -569,8 +570,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #34b7a7;
-  border: 2px solid #34b7a7;
+  background: #71b5d1;
+  border: 2px solid #71b5d1;
 }
 
 @media (max-width: 1024px) {
@@ -608,7 +609,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #34b7a7;
+  color: #71b5d1;
 }
 
 .about .content p:last-child {
@@ -647,7 +648,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #34b7a7;
+  background-color: #71b5d1;
 }
 
 /*--------------------------------------------------------------
@@ -656,7 +657,7 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #34b7a7;
+  color: #71b5d1;
 }
 
 .facts .counters p {
@@ -735,7 +736,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #34b7a7 !important;
+  background-color: #71b5d1 !important;
 }
 
 @media (min-width: 992px) {
@@ -758,7 +759,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid #71b5d1;
   position: relative;
 }
 
@@ -767,18 +768,18 @@ section {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: #365864;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: #eff9fb;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: #6aabc3;
 }
 
 .resume .resume-item ul {
@@ -802,7 +803,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #34b7a7;
+  border: 2px solid #71b5d1;
 }
 
 /*--------------------------------------------------------------
@@ -963,7 +964,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: #71b5d1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1083,7 +1084,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #34b7a7 !important;
+  background-color: #71b5d1 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1127,7 +1128,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #34b7a7;
+  color: #6aabc3;
   float: left;
   width: 44px;
   height: 44px;
@@ -1159,7 +1160,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #34b7a7;
+  background: #84b2c3;
   color: #fff;
 }
 
@@ -1225,7 +1226,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
+  border-color: #71b5d1;
 }
 
 .contact .php-email-form input {
@@ -1237,7 +1238,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #34b7a7;
+  background: #71b5d1;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1246,7 +1247,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3dc8b7;
+  background: #71b5d1;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1271,7 +1272,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: #e9e9e9;
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
@@ -1284,5 +1285,5 @@ section {
 }
 
 #footer .credits a {
-  color: #34b7a7;
+  color: #71b5d1;
 }
